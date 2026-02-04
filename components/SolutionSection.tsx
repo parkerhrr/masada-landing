@@ -56,18 +56,18 @@ const SolutionSection = () => {
           {solutions.map((solution, index) => (
             <div
               key={index}
-              className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all duration-300"
+              className="group bg-white rounded-2xl p-8 border border-gray-100 hover:shadow-lg transition-all duration-300"
             >
               {/* Icon */}
-              <div className="w-14 h-14 bg-gradient-to-br from-white to-white/80 rounded-xl flex items-center justify-center text-primary-900 mb-6">
+              <div className="w-14 h-14 bg-gradient-to-br from-primary-900 to-primary-700 rounded-xl flex items-center justify-center text-white mb-6">
                 {solution.icon}
               </div>
 
               {/* Content */}
-              <h3 className="text-lg font-bold text-white mb-3">
+              <h3 className="text-lg font-bold text-gray-900 mb-3">
                 {solution.title}
               </h3>
-              <p className="text-primary-100 leading-relaxed">
+              <p className="text-gray-600 leading-relaxed">
                 {solution.description}
               </p>
             </div>
