@@ -63,49 +63,31 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right Content - Modern Card Like Offdeal */}
+          {/* Right Content - Modern Hero Image */}
           <div className="relative">
-            <div className="relative bg-gray-50 rounded-3xl p-8 md:p-12 border border-gray-200">
-              {/* Decorative gradient blob */}
-              <div className="absolute -top-8 -right-8 w-32 h-32 bg-gradient-to-br from-primary-900 to-primary-700 rounded-full opacity-10 blur-3xl" />
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl">
+              {/* Hero Image with subtle gradient overlay */}
+              <div className="relative">
+                <img
+                  src="/hero-abstract.svg"
+                  alt="Business growth visualization showing market opportunities and value maximization"
+                  className="w-full h-auto"
+                />
+                {/* Subtle gradient overlay for modern effect */}
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-900/10 to-primary-700/5" />
+              </div>
 
-              <div className="space-y-6">
-                {/* Icon */}
-                <div className="w-16 h-16 bg-gradient-to-br from-primary-900 to-primary-700 rounded-2xl flex items-center justify-center">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                  </svg>
-                </div>
-
-                {/* Text */}
-                <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">
-                    Explore Your Value
-                  </h3>
-                  <p className="text-gray-600">
-                    Get insights you need to make informed decisions about selling.
-                  </p>
-                </div>
-
-                {/* Feature highlights */}
-                <div className="space-y-3 pt-2">
-                  <div className="flex items-center gap-3">
-                    <svg className="w-5 h-5 text-green-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+              {/* Floating overlay card */}
+              <div className="absolute bottom-8 left-8 right-8 bg-white/95 backdrop-blur-md rounded-2xl p-6 shadow-xl border border-gray-100">
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-primary-900 to-primary-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                     </svg>
-                    <span className="text-sm text-gray-700">Free, No Obligation</span>
                   </div>
-                  <div className="flex items-center gap-3">
-                    <svg className="w-5 h-5 text-green-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
-                    <span className="text-sm text-gray-700">100% Confidential</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <svg className="w-5 h-5 text-green-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
-                    <span className="text-sm text-gray-700">Expert Analysis</span>
+                  <div>
+                    <h4 className="font-bold text-gray-900 text-lg">Explore Your Value</h4>
+                    <p className="text-sm text-gray-600 mt-0.5">Free, confidential analysis</p>
                   </div>
                 </div>
               </div>
