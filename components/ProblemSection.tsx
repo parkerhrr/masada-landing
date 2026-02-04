@@ -3,22 +3,18 @@ const ProblemSection = () => {
     {
       title: "Selling for Too Little",
       description: "Without proper valuation and market knowledge, many owners accept offers 20-40% below market value.",
-      icon: "💰"
     },
     {
       title: "Poor Buyer Pool",
       description: "Limited access to qualified buyers means fewer competitive offers and lower sale prices.",
-      icon: "👥"
     },
     {
       title: "Complicated Process",
       description: "Selling a business is complex. Mistakes in due diligence or deal structure can cost millions.",
-      icon: "⚠️"
     },
     {
       title: "Post-Sale Regret",
       description: "Many sellers look back and regret not getting expert advice, leaving significant money on the table.",
-      icon: "😔"
     }
   ];
 
@@ -47,11 +43,6 @@ const ProblemSection = () => {
             >
               {/* Decorative border line */}
               <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-red-500 to-red-600 rounded-l-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-
-              {/* Icon */}
-              <div className="text-4xl mb-4 transform group-hover:scale-110 transition-transform duration-300">
-                {problem.icon}
-              </div>
 
               {/* Content */}
               <h3 className="text-xl font-bold text-primary-900 mb-3">

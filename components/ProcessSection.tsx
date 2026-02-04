@@ -4,31 +4,26 @@ const ProcessSection = () => {
       number: "01",
       title: "Free Consultation",
       description: "Initial conversation to understand your business and goals. No obligation, no cost.",
-      icon: "💬"
     },
     {
       number: "02",
       title: "Valuation Analysis",
       description: "Comprehensive business valuation with market comparables and strategic positioning.",
-      icon: "📊"
     },
     {
       number: "03",
       title: "Buyer Identification",
       description: "Identify and qualify potential buyers from our extensive network of strategic acquirers.",
-      icon: "🎯"
     },
     {
       number: "04",
       title: "Deal Management",
       description: "Handle negotiations, due diligence, and closing. You stay focused on running your business.",
-      icon: "📋"
     },
     {
       number: "05",
       title: "Successful Close",
       description: "Celebrate your successful sale with maximum value achieved. Your success is our success.",
-      icon: "🎉"
     }
   ];
 
@@ -65,12 +60,7 @@ const ProcessSection = () => {
               </div>
 
               {/* Content */}
-              <div className="pl-10 md:pl-12 flex items-start gap-4 md:gap-6">
-                {/* Icon */}
-                <div className="flex-shrink-0 text-3xl">
-                  {step.icon}
-                </div>
-
+              <div className="pl-10 md:pl-12 flex items-start">
                 {/* Text */}
                 <div className="flex-1 pt-1">
                   <h3 className="text-xl font-bold text-primary-900 mb-2">
