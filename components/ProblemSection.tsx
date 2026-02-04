@@ -1,20 +1,20 @@
 const ProblemSection = () => {
   const problems = [
     {
-      title: "Selling for Too Little",
-      description: "Without proper valuation and market knowledge, many owners accept offers 20-40% below market value.",
+      title: "The Offer You're Not Seeing",
+      description: "Without access to our buyer network, you're missing qualified acquirers who would pay more for your business.",
     },
     {
-      title: "Poor Buyer Pool",
-      description: "Limited access to qualified buyers means fewer competitive offers and lower sale prices.",
+      title: "The Million You Left Behind",
+      description: "Most sellers discover too late that they accepted 20-40% less than what their business was worth to the right buyer.",
     },
     {
-      title: "Complicated Process",
-      description: "Selling a business is complex. Mistakes in due diligence or deal structure can cost millions.",
+      title: "The Time You Can't Get Back",
+      description: "Selling without proper preparation extends the process by months, costing you opportunities and time you never recover.",
     },
     {
-      title: "Post-Sale Regret",
-      description: "Many sellers look back and regret not getting expert advice, leaving significant money on the table.",
+      title: "The Risk You Didn't Have To Take",
+      description: "With zero upfront fees and zero commitment, you can explore better offers without taking on any risk.",
     }
   ];
 
@@ -24,13 +24,13 @@ const ProblemSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16 max-w-4xl mx-auto">
           <span className="inline-block px-4 py-1.5 bg-red-50 text-red-700 text-sm font-semibold rounded-full mb-6">
-            Common Mistakes
+            Cost of Inaction
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-900 mb-6">
-            Why Most Sellers Regret Their Sale
+            The Regret of Not Exploring Your Options
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed">
-            Selling without expert guidance is the biggest mistake business owners make. Here's what they wish they knew.
+            Most business owners later discover they missed opportunities worth millions because they never knew what was possible.
           </p>
         </div>
 
@@ -54,7 +54,7 @@ const ProblemSection = () => {
 
               {/* Hover indicator */}
               <div className="mt-6 flex items-center gap-2 text-primary-600 font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span>We prevent this</span>
+                <span>Let's discuss your options</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
@@ -66,13 +66,13 @@ const ProblemSection = () => {
         {/* Bottom CTA */}
         <div className="mt-16 text-center">
           <p className="text-lg text-gray-700 mb-6">
-            Don't make these mistakes. Get expert guidance before you sell.
+            The cost of not knowing your options could be millions. Let's talk about what's possible.
           </p>
           <a
             href="#valuation"
             className="inline-flex items-center gap-2 px-8 py-4 bg-primary-900 text-white font-semibold text-lg hover:bg-primary-800 transition-all duration-300 shadow-lg hover:shadow-xl"
           >
-            Get Your Valuation
+            Explore Your Options
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>

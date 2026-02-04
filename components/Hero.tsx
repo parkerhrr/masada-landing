@@ -24,15 +24,15 @@ const Hero = () => {
 
             {/* Main Headline */}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-900 leading-tight tracking-tight">
-              Don't Leave{' '}
-              <span className="gradient-text">Millions</span>{' '}
-              on the Table When Selling Your Business
+              The Offer You're{' '}
+              <span className="gradient-text">Not Seeing</span>{' '}
+              Could Cost You Millions
             </h1>
 
             {/* Subheadline */}
             <p className="text-xl text-gray-600 leading-relaxed max-w-2xl">
-              Most business owners sell for <strong className="text-primary-900">20-40% less</strong> than their business is worth.
-              Get a confidential valuation and expert guidance to maximize your sale.
+              Without access to the right buyers, you're missing opportunities that could add <strong className="text-primary-900">millions to your exit.</strong>
+              Explore your options with zero commitment and 100% confidentiality.
             </p>
 
             {/* CTA Buttons */}
@@ -41,13 +41,13 @@ const Hero = () => {
                 href="#valuation"
                 className="px-8 py-4 bg-primary-900 text-white font-semibold text-lg hover:bg-primary-800 transition-all duration-300 shadow-lg hover:shadow-xl text-center"
               >
-                Request Confidential Valuation
+                Get Confidential Valuation
               </a>
               <a
                 href="#process"
                 className="px-8 py-4 border-2 border-primary-900 text-primary-900 font-semibold text-lg hover:bg-primary-900 hover:text-white transition-all duration-300 text-center"
               >
-                See Our Process
+                See How It Works
               </a>
             </div>
 

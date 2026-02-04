@@ -27,10 +27,10 @@ const CTASection = () => {
   };
 
   const benefits = [
-    "Free, no-obligation consultation",
-    "Comprehensive valuation analysis",
-    "Expert insights on market conditions",
-    "100% confidential and secure"
+    "Zero commitment required",
+    "Zero upfront payment",
+    "Success fee only when you close",
+    "100% confidential discussion"
   ];
 
   return (
@@ -77,7 +77,7 @@ const CTASection = () => {
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
               <span className="text-white text-sm font-medium">
-                Your information is never shared with third parties
+                100% confidential. No obligation to proceed.
               </span>
             </div>
           </div>
@@ -85,7 +85,7 @@ const CTASection = () => {
           {/* Right Column - Form */}
           <div className="bg-white rounded-2xl p-8 shadow-2xl">
             <h3 className="text-2xl font-bold text-primary-900 mb-6">
-              Request Your Valuation
+              Explore Your Options - Confidentially
             </h3>
             <form onSubmit={handleSubmit} className="space-y-5">
               <div>
@@ -199,7 +199,7 @@ const CTASection = () => {
                 type="submit"
                 className="w-full py-4 bg-primary-900 text-white font-semibold text-lg hover:bg-primary-800 transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl"
               >
-                Request Confidential Valuation
+                Explore My Options - Confidentially
               </button>
 
               <div className="flex items-center justify-center gap-2 text-sm text-gray-500">
