@@ -4,7 +4,6 @@ import ProblemSection from '@/components/ProblemSection';
 import SolutionSection from '@/components/SolutionSection';
 import TrustSection from '@/components/TrustSection';
 import ProcessSection from '@/components/ProcessSection';
-import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -16,7 +15,6 @@ export default function Home() {
       <SolutionSection />
       <TrustSection />
       <ProcessSection />
-      <CTASection />
       <Footer />
     </main>
   );
