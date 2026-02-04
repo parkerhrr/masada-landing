@@ -40,31 +40,31 @@ const SolutionSection = () => {
       <div className="relative max-w-7xl mx-auto px-6 md:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="inline-block px-4 py-1.5 bg-gold-500/20 text-gold-400 text-sm font-semibold rounded-full mb-6">
+          <span className="inline-block px-3 py-1.5 bg-white/10 text-white text-xs font-semibold rounded-full mb-6">
             Why Masada Partners
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
             Access Offers Others Miss
           </h2>
-          <p className="text-xl text-primary-100 max-w-3xl mx-auto">
+          <p className="text-lg text-primary-100 max-w-3xl mx-auto">
             Our network and approach help you explore opportunities with zero commitment.
           </p>
         </div>
 
         {/* Solution Cards */}
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-6">
           {solutions.map((solution, index) => (
             <div
               key={index}
-              className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 hover:border-white/20 transition-all duration-300"
+              className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all duration-300"
             >
               {/* Icon */}
-              <div className="w-16 h-16 bg-gradient-to-br from-gold-400 to-gold-600 rounded-xl flex items-center justify-center text-white mb-6 transform group-hover:scale-110 transition-transform duration-300">
+              <div className="w-14 h-14 bg-gradient-to-br from-white to-white/80 rounded-xl flex items-center justify-center text-primary-900 mb-6">
                 {solution.icon}
               </div>
 
               {/* Content */}
-              <h3 className="text-xl font-bold text-white mb-3">
+              <h3 className="text-lg font-bold text-white mb-3">
                 {solution.title}
               </h3>
               <p className="text-primary-100 leading-relaxed">

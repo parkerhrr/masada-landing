@@ -20,28 +20,28 @@ const TrustSection = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="inline-block px-4 py-1.5 bg-primary-50 text-primary-700 text-sm font-semibold rounded-full mb-6">
-            Trusted Results
+          <span className="inline-block px-3 py-1.5 bg-gray-100 text-gray-700 text-xs font-semibold rounded-full mb-6">
+            Proven Results
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-900 mb-6">
-            Trusted by Business Owners Across Industries
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+            Trusted Across Industries
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our track record speaks for itself. We've helped owners in multiple industries achieve exceptional outcomes.
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            We've helped owners in multiple industries achieve exceptional outcomes.
           </p>
         </div>
 
         {/* Metrics Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
           {metrics.map((metric, index) => (
             <div
               key={index}
-              className="group text-center p-6 bg-gradient-to-br from-white to-primary-50 rounded-2xl border border-primary-100 hover:shadow-lg transition-all duration-300"
+              className="text-center"
             >
-              <div className="text-4xl md:text-5xl font-bold text-primary-900 mb-2 group-hover:scale-105 transition-transform duration-300">
+              <div className="text-4xl md:text-5xl font-bold text-gray-900 mb-2">
                 {metric.value}
               </div>
-              <div className="text-gray-600 text-sm md:text-base">{metric.label}</div>
+              <div className="text-gray-500 text-sm md:text-base">{metric.label}</div>
             </div>
           ))}
         </div>

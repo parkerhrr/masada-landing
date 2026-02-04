@@ -23,14 +23,14 @@ const ProblemSection = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-8">
         {/* Section Header */}
         <div className="text-center mb-16 max-w-4xl mx-auto">
-          <span className="inline-block px-4 py-1.5 bg-red-50 text-red-700 text-sm font-semibold rounded-full mb-6">
-            Cost of Inaction
+          <span className="inline-block px-3 py-1.5 bg-gray-100 text-gray-700 text-xs font-semibold rounded-full mb-6">
+            What Happens If You Don't
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-900 mb-6">
-            The Regret of Not Exploring Your Options
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+            The Cost of Not Exploring
           </h2>
-          <p className="text-xl text-gray-600 leading-relaxed">
-            Most business owners later discover they missed opportunities worth millions because they never knew what was possible.
+          <p className="text-lg text-gray-600 leading-relaxed">
+            Most owners discover too late they missed opportunities worth millions.
           </p>
         </div>
 
@@ -39,13 +39,10 @@ const ProblemSection = () => {
           {problems.map((problem, index) => (
             <div
               key={index}
-              className="group relative bg-white p-8 rounded-2xl border border-gray-200 shadow-sm hover:shadow-lg transition-all duration-300"
+              className="group relative bg-gray-50 p-8 rounded-2xl hover:bg-gray-100 transition-all duration-300"
             >
-              {/* Decorative border line */}
-              <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-red-500 to-red-600 rounded-l-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-
               {/* Content */}
-              <h3 className="text-xl font-bold text-primary-900 mb-3">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">
                 {problem.title}
               </h3>
               <p className="text-gray-600 leading-relaxed">
